@@ -11,7 +11,7 @@ if nargin<2
     dt = 0.015;
 end
 if nargin<3
-    bTracer = false
+    bTracer = false;
 end
 
 clf
@@ -63,7 +63,7 @@ for idx=2:size(Mvec, 1)
     
 end
 hold off
-
+fprintf('Animation complete.\n');
 
 
 
